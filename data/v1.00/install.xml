@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog>
+<changegroup changelogGroupID="1204039" operation="M" tableName="AD_Field" uid="CORE-AD_Field-1015678">
+<column name="IsDisplayed" type="20">
+<oldValue>N</oldValue>
+<newValue>Y</newValue>
+</column>
+<column name="SeqNo" type="11">
+<oldValue>0</oldValue>
+<newValue>120</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204040" operation="M" tableName="AD_Field" uid="CORE-AD_Field-3373">
+<column name="SeqNo" type="11">
+<oldValue>120</oldValue>
+<newValue>130</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204041" operation="M" tableName="AD_Field" uid="CORE-AD_Field-3364">
+<column name="SeqNo" type="11">
+<oldValue>130</oldValue>
+<newValue>140</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204042" operation="M" tableName="AD_Field" uid="CORE-AD_Field-6430">
+<column name="SeqNo" type="11">
+<oldValue>140</oldValue>
+<newValue>150</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204043" operation="M" tableName="AD_Field" uid="CORE-AD_Field-1017742">
+<column name="SeqNo" type="11">
+<oldValue>150</oldValue>
+<newValue>160</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204044" operation="M" tableName="AD_Field" uid="CORE-AD_Field-8266">
+<column name="SeqNo" type="11">
+<oldValue>160</oldValue>
+<newValue>170</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204045" operation="M" tableName="AD_Field" uid="CORE-AD_Field-1015336">
+<column name="SeqNo" type="11">
+<oldValue>170</oldValue>
+<newValue>180</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204119" operation="M" tableName="AD_Column" uid="CORE-AD_Column-1014651">
+<column name="Callout" type="10">
+<oldValue></oldValue>
+<newValue>ar.com.geneos.bonificacion.plugin.callout.CalloutLineBonusAmt</newValue>
+</column>
+</changegroup>
+<changegroup changelogGroupID="1204121" operation="M" tableName="AD_Column" uid="CORE-AD_Column-1014651">
+<column name="Callout" type="10">
+<oldValue>ar.com.geneos.bonificacion.plugin.callout.CalloutLineBonusAmt</oldValue>
+<newValue>ar.com.geneos.bonificacion.plugin.callout.CalloutLineBonusAmt.lineBonusAmt</newValue>
+</column>
+</changegroup>
+</changelog>

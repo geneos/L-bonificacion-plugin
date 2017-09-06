@@ -1,0 +1,9 @@
+#Compilados y generados por eclipse
+bin
+sql
+.settings
+.classpath
+.directory
+.project
+
+
