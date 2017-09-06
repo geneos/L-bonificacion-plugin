@@ -826,6 +826,7 @@ public class CalloutInvoice extends CalloutEngine {
         /*
          * Sobre el neto, aplico un porcentaje de bonificacion
          * El porcentaje se toma desde lineBonusAmt 
+         * Author = GENEOS
          */
         Float lineBonusAmt  = ((BigDecimal)mTab.getValue("LineBonusAmt")).floatValue();
         if(lineBonusAmt != null && lineBonusAmt > 0) {
@@ -835,6 +836,7 @@ public class CalloutInvoice extends CalloutEngine {
         log.info( "amt = LineNetAmt=" + LineNetAmt );
         mTab.setValue("LineNetAmt", LineNetAmt);
         mTab.setValue("LineNetAmount", LineNetAmt);
+        /* Fin GENEOS*/
 
         // Calculate Tax Amount for PO
 

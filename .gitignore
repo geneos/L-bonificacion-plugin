@@ -6,4 +6,7 @@ sql
 .directory
 .project
 
+#base de datos en formato sql
+*.sql
+
 
